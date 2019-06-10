@@ -22,7 +22,9 @@ public class JDBC01 {
 					"123456");
 			
 			stmt = conn.createStatement();
-			stmt.executeUpdate("insert into tb_human (id,name) values (1001,'张三')");
+			stmt.executeUpdate(
+					"insert into tb_human (id,name) values (1002,'李四')");
+			
 			
 			
 		} catch (ClassNotFoundException e) {
