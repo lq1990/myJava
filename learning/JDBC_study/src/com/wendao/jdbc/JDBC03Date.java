@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.Random;
 
 /**
  * java.sql.Date
@@ -25,14 +27,22 @@ public class JDBC03Date {
 					"lq", 
 					"123456");
 			
-			String sql = "insert into tb_human (name,regTime) "
-					+ "values (?,?)";
-			ps = conn.prepareStatement(sql);
-			ps.setObject(1, "花花");
-			ps.setTimestamp(2, new java.sql.Timestamp(System.currentTimeMillis()));
-			
-			ps.executeUpdate();
-			
+			for(int i=0; i<1000; i++) {
+				if (i% 100 == 0) {
+					System.out.println(i);
+				}
+				
+				String sql = "insert into tb_human (name,lastLoginTime) "
+						+ "values (?,?)";
+				ps = conn.prepareStatement(sql);
+				
+				int rand = 100000000 + new Random().nextInt(1000000000);
+				java.sql.Timestamp ts = new java.sql.Timestamp(System.currentTimeMillis()-rand);
+				ps.setObject(1, "天天"+i);
+				ps.setTimestamp(2, ts);
+				
+				ps.execute();
+			}
 			
 		} catch(ClassNotFoundException e) {
 			e.printStackTrace();

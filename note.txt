@@ -1,0 +1,3 @@
+字符集：
+java proj 或 db 都需要首先设置 charset。避免乱码。
+
