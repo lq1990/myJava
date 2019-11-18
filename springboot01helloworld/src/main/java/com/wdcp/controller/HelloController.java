@@ -15,7 +15,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello() {
 
-        return "Hello World!";
+        return "Hello World!"; // the returned string is to be shown in browser directly.
     }
 
 }

@@ -1,15 +1,20 @@
 server:
   port: 8081
 
-person:
-  age: 18
-  boss: false
-  birth: 2000/11/11
-  maps: {k1: v1,k2: 12}
-  lists:
-    - lisi
-    - anna
-  dog:
-    name: tom
-    age: 2
-  last-name: zhang
+# 使用 --- 文档块 分
+spring:
+  profiles:
+    active: prod
+
+---
+
+server:
+  port: 8083
+spring:
+  profiles: dev
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod

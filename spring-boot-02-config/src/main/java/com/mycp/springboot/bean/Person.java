@@ -1,8 +1,10 @@
 package com.mycp.springboot.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import javax.validation.Valid;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -18,10 +20,25 @@ import java.util.Map;
  * create 2019-11-14 17:46
  */
 @Component
-@ConfigurationProperties(prefix = "person")
+//@ConfigurationProperties(prefix = "person")
 public class Person {
+
+    /**
+     * @Value("") 使用""对此属性赋值
+     * 类似于：
+     * <bean class="Person">
+     *  <properties name="lastName" value="?"></properties>
+     * </bean>
+     *
+     * value="支持 ${key，从环境变量、配置文件中获取值} #{SpEL}"
+     */
+    @Value("${person.last-name}")
     private String lastName;
+
+    @Value("#{11*2}")
     private Integer age;
+
+    @Value("true")
     private Boolean boss;
     private Date birth;
 

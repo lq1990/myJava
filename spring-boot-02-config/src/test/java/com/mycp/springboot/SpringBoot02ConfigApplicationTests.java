@@ -1,9 +1,11 @@
 package com.mycp.springboot;
 
 import com.mycp.springboot.bean.Person;
+import com.mycp.springboot.bean.Person2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
 
 /**
  * SB单元测试;
@@ -13,7 +15,20 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringBoot02ConfigApplicationTests {
 
     @Autowired
-    Person person;
+    Person2 person;
+
+    /**
+     * Spring容器
+     */
+    @Autowired
+    ApplicationContext ioc;
+
+    @Test
+    public void testHelloService() {
+        boolean helloService = ioc.containsBean("helloService");
+
+        System.out.println(helloService);
+    }
 
 
     @Test
