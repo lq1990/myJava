@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title th:text="${emp!=null} ? '修改员工信息':'添加员工'"></title>
+
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/assets/css/bootstrap.min.css}" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link th:href="@{/assets/css/dashboard.css}" rel="stylesheet">
+</head>
+<body>
+
+<!--引入抽取的topbar. ~{模板名::片段名}
+模板名:使用thymeleaf的前后缀配置规则进行解析
+-->
+
+<!--div标签会被替换成真正的标签-->
+<div th:replace="commons/bar::topbar"></div>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!--引入左侧边栏-->
+        <div th:replace="~{commons/bar::#sidebar(activeUri='emps')}"></div>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <br/>
+
+            <form th:action="@{/emp}" method="post" >
+                <!--在修改页面时，rest用PUT:
+                    1. SpringMVC中配置HiddenHttpMethodFilter (SB自动配置了)
+                    2. 页面创建一个post表单
+                    3. 创建一个input,name="_method", value="目标请求方式" -->
+                <input type="hidden" name="_method" value="put" th:if="${emp!=null}">
+                <input type="hidden" name="id" th:value="${emp.id}" th:if="${emp!=null}">
+
+                <div class="form-group">
+                    <label style="font-weight: bold;">lastName</label>
+                    <input name="lastName" th:value="${emp!=null} ? ${emp.lastName}" type="text" class="form-control" placeholder="zhangsan">
+                </div>
+                <!--emp是在model中的-->
+                <div class="form-group">
+                    <label style="font-weight: bold;">Email</label>
+                    <input th:value="${emp!=null} ? ${emp.email}" name="email" type="email" class="form-control" placeholder="zhangsan@mycp.com" >
+                </div>
+                <div class="form-group">
+                    <label style="font-weight: bold;">Gender</label><br/>
+                    <div class="form-check form-check-inline">
+                        <input th:checked="${emp!=null} ? ${emp.gender==1}" class="form-check-input" type="radio" name="gender" value="1">
+                        <label class="form-check-label">男</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input th:checked="${emp!=null} ? ${emp.gender==0}" class="form-check-input" type="radio" name="gender" value="0">
+                        <label class="form-check-label">女</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label style="font-weight: bold;">department</label>
+                    <!--提交的是部门的id-->
+                    <select name="department.id" class="form-control">
+                        <option th:selected="${emp!=null} ? ${dept.id == emp.department.id}" th:value="${dept.id}" th:each="dept: ${depts}" th:text="${dept.departmentName}"></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label style="font-weight: bold;">Birth</label>
+                    <input th:value="${emp!=null} ? ${#dates.format(emp.birth, 'yyyy-MM-dd')}" name="birth" type="text" class="form-control" placeholder="2019-12-31">
+                </div>
+
+                <input th:value="${emp!=null} ? '修改':'添加'" type="submit" class="btn btn-primary" />
+            </form>
+
+            <!-- th:checked => radio
+                 th:selected => select option
+                 对于date，在显示时使用 #dates进行格式化显示
+             -->
+
+        </main>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
+<script th:src="@{/assets/js/bootstrap.bundle.min.js}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script th:src="@{/assets/js/dashboard.js}" ></script></body>
+</html>
