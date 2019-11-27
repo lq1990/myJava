@@ -1,15 +1,12 @@
 package com.mycp.springboot.config;
 
-import com.mycp.springboot.component.LoginHandlerInterceptor;
 import com.mycp.springboot.component.MyLocaleResolver;
-import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.LocaleResolver;
-import org.springframework.web.servlet.config.annotation.*;
-
-import java.util.Date;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
  * 配置类 代替 配置文件
@@ -20,6 +17,11 @@ import java.util.Date;
 @SuppressWarnings("deprecation")
 @Configuration
 public class MyMvcConfig extends WebMvcConfigurerAdapter {
+
+
+
+
+
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {

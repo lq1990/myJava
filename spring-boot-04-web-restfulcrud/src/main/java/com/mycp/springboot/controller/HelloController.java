@@ -1,7 +1,9 @@
 package com.mycp.springboot.controller;
 
+import com.mycp.springboot.exception.UserNotExistException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.jws.WebResult;
@@ -23,9 +25,13 @@ public class HelloController {
 
     @ResponseBody
     @RequestMapping("/hello")
-    public String hello() {
+    public String hello(@RequestParam("user") String user) {
+        if (user.equals("aaa")) {
+            throw  new UserNotExistException();
+        }
         return "hello world!";
     }
+
 
     // 查出一些数据，在页面展示
     @RequestMapping("/success")
