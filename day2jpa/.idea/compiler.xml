@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day2jpa" />
+        <module name="jpaday3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpa-day3-spec" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
