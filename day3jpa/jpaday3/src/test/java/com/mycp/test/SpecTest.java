@@ -5,6 +5,10 @@ import com.mycp.domain.Customer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -130,12 +134,40 @@ public class SpecTest {
             }
         };
 
-        List<Customer> all = customerDao.findAll(spec);
+//        List<Customer> all = customerDao.findAll(spec);
+
+        // 创建排序对象
+        Sort sort = new Sort(Sort.Direction.DESC, "custId");
+        List<Customer> all = customerDao.findAll(spec, sort);
         for (Customer customer : all) {
             System.out.println(customer);
         }
 
     }
+
+    @Test
+    public void testPage() {
+        Specification spec = new Specification() {
+            public Predicate toPredicate(Root root, CriteriaQuery criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                return null;
+            }
+        };
+
+        Pageable pageable = new PageRequest(0,2); // 当前查询的页数（从0开始）；每页查询的数量；
+
+        Page<Customer> page = customerDao.findAll(spec, pageable);//带有条件的分页。 第二个参数：分页参数，查询的页码，每页查询的条数
+        System.out.println(page.getTotalElements()); // 总条数
+        System.out.println(page.getContent()); // 本页的 数据集合列表
+        System.out.println(page.getTotalPages()); // 得到总页数
+
+
+//        customerDao.findAll(page); // 没有条件的分页，会查所有。
+        // 分页时用到的方法返回值：
+        //  Page，spring data jpa封装好的pageBean对象，数据列表，总条数。
+
+
+    }
+
 
 
 

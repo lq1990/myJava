@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day2jpa" />
+        <module name="jpa-day3-many2many" />
+        <module name="jpa-day3-one2many" />
         <module name="jpaday3" />
       </profile>
     </annotationProcessing>
