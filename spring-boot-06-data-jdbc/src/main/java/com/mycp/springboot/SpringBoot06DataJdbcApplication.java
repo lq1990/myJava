@@ -10,4 +10,6 @@ public class SpringBoot06DataJdbcApplication {
         SpringApplication.run(SpringBoot06DataJdbcApplication.class, args);
     }
 
+
+
 }

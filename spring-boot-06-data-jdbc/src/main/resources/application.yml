@@ -2,10 +2,10 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:log4jdbc:mysql://192.168.241.130:3306/jdbc
+    url: jdbc:log4jdbc:mysql://192.168.230.129:3306/jdbc
     driver-class-name: net.sf.log4jdbc.DriverSpy
-#    schema:
-#      - classpath:department.sql
+    schema:
+      - classpath:department.sql
     type: com.alibaba.druid.pool.DruidDataSource
 
     initialization-mode: ALWAYS

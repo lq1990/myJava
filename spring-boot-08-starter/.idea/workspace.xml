@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59621aed-f3ed-4c72-8aa3-d5c5e2787ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/listener/HelloApplicationContextInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/listener/HelloApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/listener/HelloCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/listener/HelloSpringApplicationRunListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/mycp/springboot/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/java/com/mycp/springboot/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/resources/mybatis/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/resources/sql/department.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-06-data-mybatis/src/main/resources/sql/employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-08-starter-test/src/main/java/com/mycp/springboot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloServiceAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter/mycp-spring-boot-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycp-spring-boot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 尚硅谷JAVA.nyf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/java/com/mycp/springboot/SpringBoot06DataJdbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/java/com/mycp/springboot/SpringBoot06DataJdbcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/resources/department.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jdbc/src/main/resources/department.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" afterPath="$PROJECT_DIR$/../test" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/target/" />
+    <ignored path="$PROJECT_DIR$/mycp-spring-boot-starter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-298629682">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="factories" value="1" />
+          <entry key="java" value="5" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="2" />
+          <entry key="spring.factories" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="factories" value="32" />
+          <entry key="java" value="428" />
+          <entry key="xml" value="165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="428" />
+          <entry key="XML" value="165" />
+          <entry key="spring.factories" value="32" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/pom.xml" />
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloServiceAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloProperties.java" />
+        <option value="$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mycp-spring-boot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mycp-spring-boot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mycp-spring-boot-starter-autoconfigurer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mycp-spring-boot-starter-autoconfigurer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1005" />
+    <option name="width" value="925" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mycp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mycp" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-08-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mycp-spring-boot-starter-autoconfigurer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576728663062" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MycpSpringBootStarterAutoconfigurerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mycp-spring-boot-starter-autoconfigurer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycp.starter.MycpSpringBootStarterAutoconfigurerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59621aed-f3ed-4c72-8aa3-d5c5e2787ade" name="Default Changelist" comment="" />
+      <created>1576726943822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576726943822</updated>
+      <workItem from="1576726945443" duration="266000" />
+      <workItem from="1576727348178" duration="1385000" />
+      <workItem from="1576729771730" duration="1511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3162000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="804" y="0" width="740" height="840" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28235295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32941177" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/MycpSpringBootStarterAutoconfigurerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/test/java/com/mycp/starter/MycpSpringBootStarterAutoconfigurerApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/src/main/java/com/mycp/starter/HelloServiceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycp-spring-boot-starter-autoconfigurer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mycp-spring-boot-starter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22068965" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

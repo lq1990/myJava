@@ -9,5 +9,5 @@ create  table `department` (
    primary key (`id`)
  ) engine=InnoDB default charset=utf8;
 
-insert into department values (1, "开发部");
+insert into department values (1, "开发部2");
 
