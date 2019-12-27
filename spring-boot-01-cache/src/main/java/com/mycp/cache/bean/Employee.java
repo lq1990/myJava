@@ -1,10 +1,12 @@
 package com.mycp.cache.bean;
 
+import java.io.Serializable;
+
 /**
  * @author lq
  * create 2019-12-19 16:12
  */
-public class Employee {
+public class Employee implements Serializable {
 
     private Integer id;
     private String lastName;

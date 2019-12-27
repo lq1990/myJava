@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @author lq
  * create 2019-12-19 16:46
  */
-@CacheConfig(cacheNames="emp") // 抽取缓存配置的公共部分。 对该类进行注解配置，使得此类中的所有方法的注解都有这个
+@CacheConfig(cacheNames="emp", cacheManager = "cacheManager") // 抽取缓存配置的公共部分。 对该类进行注解配置，使得此类中的所有方法的注解都有这个
 @Service
 public class EmployeeService {
 
