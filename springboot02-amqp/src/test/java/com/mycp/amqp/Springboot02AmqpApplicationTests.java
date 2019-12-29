@@ -4,6 +4,10 @@ import com.mycp.amqp.book.Book;
 import com.sun.imageio.spi.OutputStreamImageOutputStreamSpi;
 import org.junit.jupiter.api.Test;
 import org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper;
+import org.springframework.amqp.core.AmqpAdmin;
+import org.springframework.amqp.core.Binding;
+import org.springframework.amqp.core.DirectExchange;
+import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,6 +25,33 @@ class Springboot02AmqpApplicationTests {
     @Autowired
     RabbitTemplate rabbitTemplate;
 
+    @Autowired
+    AmqpAdmin amqpAdmin; // RabbitAutoConfiguration已有
+
+    /**
+     * 使用java代码 创建exchange
+     *   direct
+     *   fanout
+     *   topic
+     */
+    @Test
+    public void createExchange() {
+
+        // 创建exchange
+//        amqpAdmin.declareExchange(new DirectExchange("amqpadmin.exchange"));
+//        System.out.println("创建 amqpadmin.exchange 完成");
+
+        // 创建queue
+//        amqpAdmin.declareQueue(new Queue("amqpadmin.queue", true));
+
+        // 创建绑定规则
+        amqpAdmin.declareBinding(new Binding("amqpadmin.queue",
+                Binding.DestinationType.QUEUE,
+                "amqpadmin.exchange",
+                "amqp.haha", null));
+
+//        amqpAdmin.deleteExchange("");
+    }
 
     /**
      * 1. 单播（点对点）
@@ -46,8 +77,8 @@ class Springboot02AmqpApplicationTests {
                 "atguigu",
                 new Book("西游记2","吴承恩2"));
 
+        // 如何将数据自动的转为json格式，发到消息队列： 需要配置MessageConverter
 
-        // 如何将数据自动的转为json格式，发到消息队列
 
 
 
