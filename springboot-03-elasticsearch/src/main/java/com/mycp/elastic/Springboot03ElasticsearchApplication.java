@@ -14,7 +14,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  *
  * 2. SpringData ElasticSearch
- *     ES version有可能不合适
+ *     ES version有可能不合适: es版本要求6.8.5 （通过查看maven整合lib 可知，再docker下载此版本es。之前docker下载的是最新版本）
+ *       方法1：升级SB版本
+ *       方法2： 安装对应版本的ES...
+ *
+ *
  *      1. Client 节点信息clusterNodes clusterName
  *      2. ElasticsearchTemplate 操作es
  *      3. 编写一个ElasticsearchRepository的子接口来操作ES

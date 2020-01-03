@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * 测试Jest 操作ES
@@ -29,11 +30,20 @@ class Springboot03ElasticsearchApplicationTests {
     @Test
     public void test02() {
         Book book = new Book();
-        book.setId(10);
-        book.setBookName("三国");
-        book.setAuthor("罗贯中");
+        book.setId(11);
+        book.setBookName("三国2");
+        book.setAuthor("罗贯中2");
 
         bookRepository.index(book);
+    }
+
+    @Test
+    public void testFind() {
+        List<Book> books = bookRepository.findByBookNameLike("三");
+
+        for (Book book : books) {
+            System.out.println(book);
+        }
     }
 
 
