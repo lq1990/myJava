@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
 <body>
 
-登录页面
+<h2 align="center">欢迎登录武林秘籍管理系统</h2>
+
+<div align="center">
+    <!-- 默认post形式的/login代表处理登录 -->
+    <form th:action="@{/userlogin}" method="post">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input id="username" name="user" /></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input id="pwd" name="pwd"/></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="checkbox" name="remember"/>记住我
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2"><input type="submit" value="登录"/></td>
+            </tr>
+        </table>
+
+    </form>
+</div>
 
 </body>
 </html>
