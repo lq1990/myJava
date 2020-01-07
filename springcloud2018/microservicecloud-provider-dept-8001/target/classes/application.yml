@@ -31,8 +31,23 @@ spring:
       pool-prepared-statements: true
 
 eureka:
-  client: # 客户端注册进eureka服务列表内
+  client:  # 客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka   # 这个url和eureka server中yml配置的一致
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      # 这个url和eureka server中yml配置的一致
+      # 集群有3个server，所以都要写上，即provider要注册进所有的server
+
+  instance:
+    instance-id: microservicecloud-dept8001  # 自定义实例id
+    prefer-ip-address: true   # 访问路径可以显式IP地址
+
+
+# 当访问instance链接时，web显示的info
+info:
+  app.name: mycp-microservicecloud
+  company.name: www.mycp.com
+  build.artifactId: microservicecloud-provider-dept-8001
+  build.version: 0.0.1-SNAPSHOT
+
 
 

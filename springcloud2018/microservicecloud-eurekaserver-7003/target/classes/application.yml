@@ -1,0 +1,19 @@
+server:
+  port: 7003
+
+eureka:
+  instance:
+    hostname: eureka7003.com  # eureka服务端的实例名称。域名映射已经配置在了C:\Windows\System32\drivers\etc\hosts 中
+  client:
+    register-with-eureka: false # false表示不向注册中心注册自己
+    fetch-registry: false  # false表示自己端就是注册中心
+    service-url:
+      #单机defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  # 设置与Eureka Server交互的'地址查询服务和注册服务'都需要依赖这个地址
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+
+
+
+
+
+

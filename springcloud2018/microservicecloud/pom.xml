@@ -12,6 +12,12 @@
         <module>../microservicecloud-provider-dept-8001</module>
         <module>../microservicecloud-consumer-dept-80</module>
         <module>../microservicecloud-eurekaserver-7001</module>
+        <module>../microservicecloud-eureka-7002</module>
+        <module>../microservicecloud-eureka-7003</module>
+        <module>../microservicecloud-eurekaserver-7002</module>
+        <module>../microservicecloud-eurekaserver-7003</module>
+        <module>../microservicecloud-provider-dept-8002</module>
+        <module>../microservicecloud-provider-dept-8003</module>
     </modules>
     <packaging>pom</packaging> <!-- 父工程是pom。相当于是父类 抽象类 -->
 
@@ -80,5 +86,29 @@
         </dependency>
         </dependencies>
     </dependencyManagement>
+
+
+    <!--为了完善info，即当点击eureka server web中instance链接时的页面，需要总父工程中配置build-->
+    <build>
+        <finalName>microservicecloud</finalName> <!--父工程名字-->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>  <!--放置资源文件-->
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimit>$</delimit>  <!--使得可以解析 resources文件夹下配置文件的$$之间的内容-->
+                    </delimiters>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -1,5 +1,9 @@
 package com.mycp.springcloud.cfgbeans;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RoundRobinRule;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -13,15 +17,34 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class ConfigBean {
 
-
+    /**
+     * 使用一个注解，既可以开启负载均衡，很方便
+     * @return
+     */
     @Bean
+    @LoadBalanced // 开启负载均衡，Ribbon
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 
 
-}
+    /**
+     * 定义LB即负载均衡规则.
+     *
+     * 用我们重新选择的随机算法替代默认的。
+     *
+     * @return
+     */
+    @Bean
+    public IRule myRule() {
+//        return new RoundRobinRule();
+        return new RandomRule();
+    }
 
+
+
+
+}
 
 /**
  * <bean id=""  class="" ></bean>
