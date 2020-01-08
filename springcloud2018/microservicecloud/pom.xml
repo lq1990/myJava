@@ -18,6 +18,8 @@
         <module>../microservicecloud-eurekaserver-7003</module>
         <module>../microservicecloud-provider-dept-8002</module>
         <module>../microservicecloud-provider-dept-8003</module>
+        <module>../microservicecloud-consumer-dept-feign</module>
+        <module>../microservicecloud-provider-dept-hystrix-8001</module>
     </modules>
     <packaging>pom</packaging> <!-- 父工程是pom。相当于是父类 抽象类 -->
 

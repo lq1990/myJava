@@ -1,1 +1,2 @@
-com\mycp\springcloud\entity\Dept.class
+com\mycp\springcloud\serivce\DeptClientService.class
+com\mycp\springcloud\entities\Dept.class
