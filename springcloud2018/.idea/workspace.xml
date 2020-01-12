@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20779ae9-96b6-45f3-b645-99d61a793920" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../02 shangguigu - JAVA.nyf" beforeDir="false" afterPath="$PROJECT_DIR$/../02 shangguigu - JAVA.nyf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" afterPath="$PROJECT_DIR$/../test" afterDir="false" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud/microservicecloud-api/target/" />
@@ -43,6 +47,7 @@
     <session id="-2031861626">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="8" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="1" />
@@ -51,6 +56,15 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="7" />
+=======
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +111,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="192">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+=======
+            <state relative-caret-position="240">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
               <folding>
                 <element signature="n#dependencies#0;n#project#0;n#!!top" />
               </folding>
@@ -214,8 +233,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="952" />
     <option name="width" value="969" />
+=======
+    <option name="x" value="1097" />
+    <option name="width" value="824" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
     <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -268,8 +292,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,6 +308,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,12 +469,16 @@
       <workItem from="1578303361893" duration="4881000" />
       <workItem from="1578361384890" duration="19483000" />
       <workItem from="1578446913899" duration="21481000" />
+<<<<<<< HEAD
       <workItem from="1578744130301" duration="602000" />
       <workItem from="1578816351913" duration="32000" />
+=======
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="65826000" />
   </component>
   <component name="ToolWindowManager">
@@ -450,6 +486,14 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977307" visible="true" weight="0.4013986" />
+=======
+    <option name="totallyTimeSpent" value="65192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977307" weight="0.46410686" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
       <window_info id="Structure" order="1" sideWeight="0.50226927" side_tool="true" weight="0.4764795" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -805,8 +849,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="192">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+=======
+        <state relative-caret-position="240">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+>>>>>>> 772367dd7f45351348866ff317d348614f6ca42b
           <folding>
             <element signature="n#dependencies#0;n#project#0;n#!!top" />
           </folding>
