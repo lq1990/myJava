@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71f8499-df56-44bc-9b3e-f9d36c64d5ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/JoinDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/ProgrammerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/RabbitApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/SleepDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/SleepDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Turtle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Web12306.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/YieldDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/InfoDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/InfoDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SynDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/Web12306S.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Watcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/schedule/TimerDemo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaSE.nyf" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE.nyf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataStructureAndAlgorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dataStructureAndAlgorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,50 +23,50 @@
     <session id="934790041">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="4635" />
+          <entry key="java" value="7466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4635" />
+          <entry key="JAVA" value="7466" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/Web12306S.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/schedule/TimerDemo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SynDemo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="64">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#306#448#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,6 +104,14 @@
         <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/create/Web12306.java" />
         <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SynDemo01.java" />
         <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/Web12306S.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo02.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo03.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Watcher.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/App.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Player.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Movie.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/schedule.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/schedule/TimerDemo01.java" />
       </list>
     </option>
   </component>
@@ -134,8 +130,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1057" />
-    <option name="width" value="872" />
+    <option name="x" value="1056" />
+    <option name="width" value="873" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -188,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,28 +204,23 @@
             </path>
             <path>
               <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581074013796" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581240766976" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -245,65 +235,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynDemo01">
-    <configuration name="InfoDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.info.InfoDemo01" />
+  <component name="RunManager" selected="Application.TimerDemo01">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.pro.App" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wendaocp.javase.multithread.info.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfoDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.info.InfoDemo02" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wendaocp.javase.multithread.info.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.RabbitApp" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wendaocp.javase.multithread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepDemo02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.create.SleepDemo02" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wendaocp.javase.multithread.create.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.SleepDemo02" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.wendaocp.javase.multithread.*" />
+          <option name="PATTERN" value="cn.wendaocp.javase.multithread.pro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,20 +262,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SyncDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.info.SyncDemo02" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wendaocp.javase.multithread.info.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncDemo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.info.SyncDemo03" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wendaocp.javase.multithread.info.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimerDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.javase.multithread.schedule.TimerDemo01" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wendaocp.javase.multithread.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SleepDemo02" />
-      <item itemvalue="Application.InfoDemo01" />
-      <item itemvalue="Application.InfoDemo02" />
-      <item itemvalue="Application.SleepDemo02 (1)" />
       <item itemvalue="Application.SynDemo01" />
+      <item itemvalue="Application.SyncDemo02" />
+      <item itemvalue="Application.SyncDemo03" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.TimerDemo01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimerDemo01" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.SyncDemo03" />
+        <item itemvalue="Application.SyncDemo02" />
         <item itemvalue="Application.SynDemo01" />
-        <item itemvalue="Application.SleepDemo02 (1)" />
-        <item itemvalue="Application.InfoDemo02" />
-        <item itemvalue="Application.InfoDemo01" />
-        <item itemvalue="Application.SleepDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -355,45 +332,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580963264055</updated>
-      <workItem from="1580963265830" duration="17160000" />
+      <workItem from="1580963265830" duration="20306000" />
+      <workItem from="1581150496926" duration="8696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17160000" />
+    <option name="totallyTimeSpent" value="29002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="0" width="697" height="840" extended-state="0" />
+    <frame x="845" y="0" width="698" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3689168" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36833856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.27586207" />
-      <window_info anchor="bottom" id="Messages" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30408472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35552195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24924012" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -479,42 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="533" column="11" selection-start-line="533" selection-start-column="11" selection-end-line="533" selection-end-column="11" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#17246#17247#0" expanded="true" />
-            <element signature="e#17313#17314#0" expanded="true" />
-            <element signature="e#18578#18579#0" expanded="true" />
-            <element signature="e#18620#18621#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,10 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="44" column="1" lean-forward="true" selection-start-line="10" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="method#main#0;class#Web12306#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,8 +550,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/Web12306S.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1140" column="24" selection-start-line="1140" selection-start-column="24" selection-end-line="1140" selection-end-column="24" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#17246#17247#0" expanded="true" />
+            <element signature="e#17313#17314#0" expanded="true" />
+            <element signature="e#18578#18579#0" expanded="true" />
+            <element signature="e#18620#18621#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#43996#43997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/info/SyncDemo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Watcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/pro/schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/javase/multithread/schedule/TimerDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#448#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
