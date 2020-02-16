@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-movie-provider/dubbo-movie-provider.iml" filepath="$PROJECT_DIR$/dubbo-movie-provider/dubbo-movie-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-user-comsumer/dubbo-user-comsumer.iml" filepath="$PROJECT_DIR$/dubbo-user-comsumer/dubbo-user-comsumer.iml" />
+    </modules>
+  </component>
+</project>

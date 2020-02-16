@@ -1,5 +1,10 @@
 package cn.wendaocp.tree;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  * Tree本身就是递归定义，所以在 遍历 getHeight size 求解时，都用递归
  *
@@ -38,6 +43,14 @@ public class TreeDemo01 {
         // size
         btree.size();
 
+
+        List<List<Integer>> lists = btree.levelOrder(node1);
+        for (List<Integer> list : lists) {
+            for (Integer elem :list){
+                System.out.print("[ "+elem + " ]");
+            }
+            System.out.println();
+        }
 
     }
 
@@ -158,6 +171,92 @@ class LinkedBinaryTree {
             return 0;
         }
     }
+
+    /**
+     * use Queue
+     */
+    public List<List<Integer>> levelOrder0(TreeNode node) {
+        System.out.println("层次遍历：");
+
+        if (node == null) return null;
+
+        // 确定每层有几个node
+//        ArrayList<Integer> nEachLevel = new ArrayList<>();
+//        nEachLevel.add(1);
+//
+//        while (node.left != null || node.right != null) {
+//            if (node.left != null) {
+//
+//            }
+//        }
+
+        List<List<Integer>> resList = new ArrayList<>();
+
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(node);
+
+//        ArrayList<Integer> level1 = new ArrayList<>();
+//        level1.add(node.val);
+//        resList.add(level1);
+
+        while (queue.size() > 0) {
+            TreeNode tmp = queue.poll();
+
+            // System.out.print(tmp.val + " ");
+
+
+            if (tmp.left != null || tmp.right != null) {
+
+                if (tmp.left != null) {
+                    queue.add(tmp.left);
+                }
+
+                if (tmp.right != null) {
+                    queue.add(tmp.right);
+                }
+
+            }
+
+        }
+
+        return resList;
+    }
+
+
+    private List<List<Integer>> list = new ArrayList<>();
+    /**
+     * 递归
+     *
+     * @param node
+     * @param level
+     * @return
+     */
+    private void levelOrder(TreeNode node, int level) {
+
+        if (list.size() == level) {
+            list.add(new ArrayList<Integer>());
+        }
+
+        this.list.get(level).add(node.val);
+
+        if (node.left != null) {
+            this.levelOrder(node.left, level + 1);
+        }
+
+        if (node.right != null) {
+            this.levelOrder(node.right, level + 1);
+        }
+
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode node) {
+        if (node == null) return null;
+
+        this.levelOrder(node, 0);
+
+        return this.list;
+    }
+
 
 }
 
