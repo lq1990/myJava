@@ -1,10 +1,12 @@
 package cn.wendaocp.dubbo.bean;
 
+import java.io.Serializable;
+
 /**
  * @author lq
  * create 2020-02-16 12:10
  */
-public class Order {
+public class Order implements Serializable {
     private Integer movieId;
     private String movieName;
     private String userName;

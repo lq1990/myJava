@@ -5,8 +5,12 @@
       <list>
         <option value="$PROJECT_DIR$/dubbo-movie-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-user-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="dubbo.xsd" location="$PROJECT_DIR$/../../DOWNLOAD/xsd" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

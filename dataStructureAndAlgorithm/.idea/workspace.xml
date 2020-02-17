@@ -5,15 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cfe179c-b941-43f9-8a93-b7492a472376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/offer/FindNumberIn2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/offer/findRepeatNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/tree/IsSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__com_alibaba_dubbo_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/dubbo-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/src/main/java/cn/wendaocp/dubbo/bean/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/src/main/java/cn/wendaocp/dubbo/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/src/main/java/cn/wendaocp/dubbo/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/src/main/java/cn/wendaocp/dubbo/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/service/impl/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/wendaocp/str/LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/dubbo-movie-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/dubbo-movie-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-movie-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/dubbo-user-comsumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/dubbo-user-comsumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/src/main/java/cn/wendaocp/dubbo/bean/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/src/main/java/cn/wendaocp/dubbo/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-api/src/main/java/cn/wendaocp/dubbo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/dubbo-user-comsumer/src/main/java/cn/wendaocp/dubbo/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/LinkedBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/LinkedBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/TreeDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/TreeDemo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructureAndAlgorithm/cn/wendaocp/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/wendaocp/tree/TreeDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/wendaocp/tree/TreeDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-06-springcloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-06-springcloud/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,40 +59,53 @@
     <session id="-422429583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28167" />
+          <entry key="java" value="28466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28167" />
+          <entry key="JAVA" value="28466" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/str/LengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/cn/wendaocp/tree/IsSymmetric.java" />
         <option value="$PROJECT_DIR$/src/cn/wendaocp/offer/findRepeatNumber.java" />
         <option value="$PROJECT_DIR$/src/cn/wendaocp/offer/FindNumberIn2DArray.java" />
+        <option value="$PROJECT_DIR$/src/cn/wendaocp/str/LengthOfLongestSubstring.java" />
       </list>
     </option>
   </component>
@@ -114,7 +161,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="946" />
+    <option name="x" value="945" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -168,10 +215,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="dataStructureAndAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructureAndAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructureAndAlgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wendaocp" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="dataStructureAndAlgorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -180,12 +241,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581763721482" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581912230148" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -205,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindNumberIn2DArray">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.wendaocp.offer.FindNumberIn2DArray" />
       <module name="dataStructureAndAlgorithm" />
@@ -219,8 +281,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSameTree2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.tree.IsSameTree2" />
+    <configuration name="IsSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.tree.IsSymmetric" />
       <module name="dataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -232,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.tree.IsSymmetric" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.str.LengthOfLongestSubstring" />
       <module name="dataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.wendaocp.tree.*" />
+          <option name="PATTERN" value="cn.wendaocp.str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,18 +335,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TreeDemo01" />
-      <item itemvalue="Application.IsSameTree2" />
       <item itemvalue="Application.IsSymmetric" />
       <item itemvalue="Application.findRepeatNumber" />
       <item itemvalue="Application.FindNumberIn2DArray" />
+      <item itemvalue="Application.LengthOfLongestSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.FindNumberIn2DArray" />
         <item itemvalue="Application.findRepeatNumber" />
         <item itemvalue="Application.IsSymmetric" />
         <item itemvalue="Application.TreeDemo01" />
-        <item itemvalue="Application.IsSameTree2" />
       </list>
     </recent_temporary>
   </component>
@@ -307,16 +369,17 @@
       <workItem from="1581577536791" duration="4466000" />
       <workItem from="1581772410998" duration="253000" />
       <workItem from="1581772746475" duration="437000" />
+      <workItem from="1581908768019" duration="3056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130241000" />
+    <option name="totallyTimeSpent" value="133297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="757" y="0" width="784" height="840" extended-state="0" />
+    <frame x="756" y="0" width="784" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="ZooKeeper" visible="true" weight="0.32872927" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" weight="0.37292817" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.45492372" />
       <window_info id="Image Layers" order="2" />
@@ -324,6 +387,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" id="ZooKeeper" order="7" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25113463" />
@@ -335,7 +399,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32554746" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32526475" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.33821872" />
@@ -557,6 +621,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/wendaocp/str/LengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
