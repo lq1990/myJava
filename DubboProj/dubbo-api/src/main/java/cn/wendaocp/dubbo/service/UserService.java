@@ -12,6 +12,4 @@ public interface UserService {
     public Order buyNewMovie(User user);
 
 
-
-
 }

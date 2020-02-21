@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-api" />
-        <module name="dubbo-movie-provider" />
-        <module name="dubbo-user-comsumer" />
+        <module name="dubbo-movie-provider-boot" />
+        <module name="dubbo-movie-provider-boot2" />
+        <module name="dubbo-user-consumer-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo-api" target="1.8" />
       <module name="dubbo-movie-provider" target="1.8" />
+      <module name="dubbo-movie-provider-boot" target="1.8" />
+      <module name="dubbo-movie-provider-boot2" target="1.8" />
       <module name="dubbo-user-comsumer" target="1.8" />
+      <module name="dubbo-user-consumer-boot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
