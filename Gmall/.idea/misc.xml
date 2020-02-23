@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-admin-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
