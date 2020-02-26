@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1c2e06-54f9-4cf5-bba2-45407d2e44d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-api/gmall-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-common/gmall-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DubboProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gmall-parent/target/" />
     <ignored path="$PROJECT_DIR$/gmall-parent/gmall-common/target/" />
@@ -61,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/gmall-parent/gmall-oms/target/" />
     <ignored path="$PROJECT_DIR$/gmall-parent/gmall-sms/target/" />
     <ignored path="$PROJECT_DIR$/gmall-parent/gmall-admin-web/target/" />
+    <ignored path="$PROJECT_DIR$/gmall-parent/gmall-mbg/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,85 +25,129 @@
     <session id="1717767238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="pom" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="class" value="7" />
+          <entry key="gitignore" value="3" />
+          <entry key="java" value="90" />
+          <entry key="pom" value="4" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="40" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="10" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="90" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="44" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="53" />
+          <entry key="ft" value="59" />
+          <entry key="java" value="912" />
+          <entry key="properties" value="282" />
+          <entry key="txt" value="31" />
+          <entry key="xml" value="759" />
+          <entry key="yml" value="404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="53" />
+          <entry key="JAVA" value="912" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Properties" value="282" />
+          <entry key="VTL" value="59" />
+          <entry key="XML" value="759" />
+          <entry key="YAML" value="404" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/sharding-jdbc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-oms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-admin-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/GmallPmsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="112">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/config/PmsDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -158,11 +156,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-parent/gmall-common/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-parent/gmall-api/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-parent/gmall-oms/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-parent/gmall-admin-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-mbg/src/main/java/cn/wendaocp/gmall/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-mbg/src/main/java/cn/wendaocp/gmall/oms/entity/OrderItem.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-mbg/src/main/java/cn/wendaocp/gmall/oms/entity/CartItem.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-mbg/src/main/java/cn/wendaocp/gmall/CodeGen.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-api/src/main/java/gmall/cms/entity/Help.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-api/src/main/java/cn/wendaocp/gmall/cms/entity/Help.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/impl/ProductCategoryAttributeRelationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/ProductCategoryAttributeRelationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/mapper/xml/AlbumMapper.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/config/PmsDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/sharding-jdbc.yml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/test/java/cn/wendaocp/gmall/pms/GmallPmsApplicationTests.java" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/GmallPmsApplication.java" />
       </list>
     </option>
   </component>
@@ -185,10 +204,40 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-pms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-pms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-pms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="cn.wendaocp.gmall:gmall-api:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gmall-pms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="cn.wendaocp.gmall:gmall-api:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="io.shardingjdbc:sharding-jdbc-core:2.0.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1053" />
-    <option name="width" value="874" />
-    <option name="height" value="1050" />
+    <option name="x" value="951" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -197,6 +246,12 @@
           <State />
           <State>
             <id>Android</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
           </State>
           <State>
             <id>IconsUsabilityLintAndroid</id>
@@ -214,13 +269,34 @@
             <id>Java</id>
           </State>
           <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
             <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
           </State>
           <State>
             <id>UsabilityLintAndroid</id>
           </State>
           <State>
             <id>WebSocket</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -236,10 +312,12 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,26 +328,103 @@
             <path>
               <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="gmall-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="DataSourceAutoConfig&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration&#10;version&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582452441314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582692947460" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3443787" />
-    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myGithub\myJava\Gmall\gmall-parent\gmall-pms\src\main\resources" />
+      <recent name="D:\myGithub\myJava\Gmall\gmall-parent\gmall-ums\src\main\java\cn\wendaocp\gmall\ums\service" />
+      <recent name="D:\myGithub\myJava\Gmall\gmall-parent\gmall-ums\src\main\java\cn\wendaocp\gmall\ums" />
+      <recent name="D:\myGithub\myJava\Gmall\gmall-parent\gmall-sms\src\main\java\cn\wendaocp\gmall\sms\service" />
+      <recent name="D:\myGithub\myJava\Gmall\gmall-parent\gmall-sms\src\main\java\cn\wendaocp\gmall\sms" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -290,6 +445,35 @@
     <option name="contentProportion" value="0.30769232" />
   </component>
   <component name="RunManager" selected="Spring Boot.GmallPmsApplication">
+    <configuration name="CodeGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.gmall.CodeGen" />
+      <module name="gmall-mbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wendaocp.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPmsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-pms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wendaocp.gmall.pms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wendaocp.gmall.pms" />
+      <option name="MAIN_CLASS_NAME" value="cn.wendaocp.gmall.pms.GmallPmsApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmallAdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gmall-admin-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wendaocp.gmall.admin.GmallAdminWebApplication" />
@@ -331,7 +515,15 @@
       <item itemvalue="Spring Boot.GmallOmsApplication" />
       <item itemvalue="Spring Boot.GmallSmsApplication" />
       <item itemvalue="Spring Boot.GmallAdminWebApplication" />
+      <item itemvalue="Application.CodeGen" />
+      <item itemvalue="JUnit.GmallPmsApplicationTests.contextLoads" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GmallPmsApplicationTests.contextLoads" />
+        <item itemvalue="Application.CodeGen" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -347,125 +539,406 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582450485609</updated>
-      <workItem from="1582450489463" duration="1818000" />
+      <workItem from="1582450489463" duration="14557000" />
+      <workItem from="1582526725846" duration="120000" />
+      <workItem from="1582526866517" duration="11670000" />
+      <workItem from="1582686537037" duration="4536000" />
     </task>
+    <task id="LOCAL-00001" summary="basic environment over">
+      <created>1582692760458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582692760459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.24 at 19h 57m 25s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 20m 03s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 28m 01s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 28m 50s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 37m 57s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 42m 51s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GmallPmsApplicationTests_contextLoads - 2020.02.25 at 12h 44m 25s.xml">
+      <configuration name="GmallPmsApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1818000" />
+    <option name="totallyTimeSpent" value="30883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="804" y="0" width="738" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="761" y="-7" width="782" height="848" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31858408" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.32980332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.57202214" />
+      <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.5734375" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41452345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32980332" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32980332" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32323232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.590625" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic environment over" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic environment over" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="39.105.96.93" />
     <option name="port" value="2181" />
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="/" />
-    <option name="enabled" value="true" />
     <option name="tooltip" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-oms/src/main/java/cn/wendaocp/gmall/oms/service/impl/CartItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/GmallPmsApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../DOWNLOAD/Maven/repository/org/springframework/boot/spring-boot-starter/2.1.12.RELEASE/spring-boot-starter-2.1.12.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-oms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/mapper/xml/CouponMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/CouponProductCategoryRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/CouponProductRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/HomeNewProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/HomeRecommendProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/FlashPromotionSessionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/HomeRecommendSubjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/FlashPromotionLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/FlashPromotionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/CouponServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/FlashPromotionProductRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-sms/src/main/java/cn/wendaocp/gmall/sms/service/impl/CouponHistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/mapper/xml/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/MemberLevelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/MemberStatisticsInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/MemberMemberTagRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/MemberTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/AdminLoginLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/AdminRoleRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-ums/src/main/java/cn/wendaocp/gmall/ums/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/mapper/AlbumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/mapper/xml/AlbumMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/mapper/xml/AlbumPicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/mapper/AlbumPicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/AlbumPicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-mbg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-api/src/main/java/cn/wendaocp/gmall/pms/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../DOWNLOAD/Maven/repository/io/shardingjdbc/sharding-jdbc-core/2.0.3/sharding-jdbc-core-2.0.3.jar!/io/shardingjdbc/core/api/MasterSlaveDataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../DOWNLOAD/Maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.12.RELEASE/spring-boot-autoconfigure-2.1.12.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-api/src/main/java/cn/wendaocp/gmall/pms/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-api/src/main/java/cn/wendaocp/gmall/pms/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../DOWNLOAD/Maven/repository/net/logstash/logback/logstash-logback-encoder/5.3/logstash-logback-encoder-5.3.jar!/net/logstash/logback/appender/LogstashTcpSocketAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/test/java/cn/wendaocp/gmall/pms/GmallPmsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/config/PmsDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/sharding-jdbc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../DOWNLOAD/Maven/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/ch/qos/logback/core/rolling/TimeBasedRollingPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-pms/src/main/java/cn/wendaocp/gmall/pms/GmallPmsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-parent/gmall-admin-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,7 +959,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -521,7 +994,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gmall-parent</last-edited>
+          <last-edited>gmall-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -546,6 +1019,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
