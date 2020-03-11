@@ -15,8 +15,10 @@ images/
 editor/
 themes/
 .idea/
+*.iml
+.idea
 
 
 *.zip
-lib/
-js/
+lib
+js
